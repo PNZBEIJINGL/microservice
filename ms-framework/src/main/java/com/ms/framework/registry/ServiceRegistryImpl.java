@@ -36,7 +36,6 @@ public class ServiceRegistryImpl implements ServiceRegistry, Watcher {
 		}
 	}
 
-	@Override
 	public void register(String serviceName, String serviceAddress) {
 		String registryPath = REGISTRY_PATH;
 		try {
@@ -71,7 +70,6 @@ public class ServiceRegistryImpl implements ServiceRegistry, Watcher {
 
 	}
 
-	@Override
 	public void process(WatchedEvent event) {
 		if (event.getState() == Event.KeeperState.SyncConnected) {
 			latch.countDown();
