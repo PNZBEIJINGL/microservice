@@ -1,7 +1,7 @@
 package com.ms.framework.registry;
 
-        import org.springframework.boot.context.properties.ConfigurationProperties;
-        import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ConfigurationProperties(prefix = "registry")
