@@ -26,8 +26,43 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <!-- 排除spring-boot-starter-logging 依赖
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+            -->
         </dependency>
 
+        <!-- 排除spring-boot-starter-log4j2 是spring boot提供的Log4j插件-->
+        <!--
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+        -->
+        <!-- 排除spring-boot-starter-actuator 开启监控插件-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+
+        <!-- ////////////////////////// SPRING BOOT ADMIN  ////////////////////////////////-->
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-server</artifactId>
+            <version>1.4.6</version>
+        </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-server-ui</artifactId>
+            <version>1.4.6</version>
+        </dependency>
+
+        <!-- ///////////////////////////////////////////////////////////-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -81,7 +116,6 @@
             <artifactId>spring-webmvc</artifactId>
             <version>4.3.22.RELEASE</version>
         </dependency>
-
 
     </dependencies>
 
