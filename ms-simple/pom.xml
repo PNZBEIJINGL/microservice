@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <version>1.0.0</version>
     <artifactId>ms-simple</artifactId>
     <description>ms-simple</description>
     <properties>
@@ -36,17 +35,18 @@
 
 
         <!-- ////////////////////////// SPRING BOOT ADMIN  client ////////////////////////////////-->
+        <!--  de.codecentric  监控客户端-->
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
             <version>1.4.6</version>
         </dependency>
 
+        <!--  org.jolokia  用于监控日志-->
         <dependency>
             <groupId>org.jolokia</groupId>
             <artifactId>jolokia-core</artifactId>
         </dependency>
-
 
     </dependencies>
 
