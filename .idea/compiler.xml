@@ -8,9 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ms-framework" />
         <module name="ms-simple" />
+        <module name="msproduct" />
+        <module name="msresource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ms-product" target="1.8" />
       <module name="msframwork" target="1.5" />
     </bytecodeTargetLevel>
   </component>

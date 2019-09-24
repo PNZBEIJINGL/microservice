@@ -10,10 +10,11 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ms-framwork/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-product-ui/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="jdk1.8.0_121" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="JDK_11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

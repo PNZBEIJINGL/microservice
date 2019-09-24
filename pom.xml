@@ -9,9 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-       <!-- <module>ms-framwork</module>  -->
         <module>ms-framework</module>
         <module>ms-simple</module>
+        <module>ms-product</module>
+        <module>ms-resource</module>
     </modules>
 
 
