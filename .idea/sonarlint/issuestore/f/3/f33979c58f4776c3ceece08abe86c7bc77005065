@@ -1,0 +1,12 @@
+
+Ysquid:S2147"DCombine this catch with the one at line 63, which has the same body.(ä ¹€
+Isquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Esquid:S1481"0Remove this unused "addressNode" local variable.(É«†É
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+Tsquid:S1854"?Remove this useless assignment to local variable "addressNode".(É«†É
+Vsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(©˜×æ
+@squid:S1075"&Remove this hard-coded path-delimiter.(®–˜±üÿÿÿÿ

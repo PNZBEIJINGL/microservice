@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ms-framework" />
         <module name="ms-simple" />
+        <module name="mscustomer" />
         <module name="msproduct" />
         <module name="msresource" />
       </profile>

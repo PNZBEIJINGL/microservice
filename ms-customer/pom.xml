@@ -2,26 +2,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.19.RELEASE</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>ms-resource</artifactId>
-    <description>ms-resource</description>
+
+    <artifactId>ms-customer</artifactId>
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
 
         <!-- 排除spring-boot-starter-actuator 开启监控插件-->
         <dependency>
@@ -38,7 +36,6 @@
             <version>1.5.19.RELEASE</version>
         </dependency>
 
-
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -54,7 +51,6 @@
             <artifactId>spring-webmvc</artifactId>
             <version>4.3.22.RELEASE</version>
         </dependency>
-
     </dependencies>
 
     <build>
