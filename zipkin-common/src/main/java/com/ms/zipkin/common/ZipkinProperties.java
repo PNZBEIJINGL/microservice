@@ -1,6 +1,11 @@
 package com.ms.zipkin.common;
 
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties("zipkin")
 public class ZipkinProperties {
 
     private String endpoint;

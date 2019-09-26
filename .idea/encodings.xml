@@ -7,5 +7,6 @@
     <file url="file://$PROJECT_DIR$/ms-product-ui" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-resource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-simple" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-common" charset="UTF-8" />
   </component>
 </project>
