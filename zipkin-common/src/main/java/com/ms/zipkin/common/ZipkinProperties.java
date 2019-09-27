@@ -8,8 +8,9 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties("zipkin")
 public class ZipkinProperties {
 
-    private String endpoint;
-    private String service;
+    //通过ConfigurationProperties注解读取properties配置中的zipkin配置
+    private String endpoint;//端点
+    private String service; //服务,用于区分
 
     public String getEndpoint() {
         return endpoint;

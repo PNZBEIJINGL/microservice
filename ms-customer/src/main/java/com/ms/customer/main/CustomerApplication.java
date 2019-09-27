@@ -5,7 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-@SpringBootApplication(scanBasePackages = {"com.ms.customer"})
+/**
+ * CustomerApplication
+ * SpringBootApplication默认扫描CustomerApplication所在包所以需要scanBasePackages制定包名
+ */
+@SpringBootApplication(scanBasePackages = {"com.ms"})
 public class CustomerApplication {
 
     public static void main(String[] args) {

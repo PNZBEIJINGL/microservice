@@ -31,7 +31,7 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 
 @Configuration
-@Import({RestTemplate.class, BraveClientHttpRequestInterceptor.class,ServletHandlerInterceptor.class})
+@Import({RestTemplate.class, BraveClientHttpRequestInterceptor.class, ServletHandlerInterceptor.class})
 public class ZipkinConfiguration extends WebMvcConfigurerAdapter {
     @Autowired
     private ZipkinProperties zipkinProperties;
@@ -66,9 +66,12 @@ public class ZipkinConfiguration extends WebMvcConfigurerAdapter {
 
     @Bean
     public Brave brave() {
+        //Brave 是用来装备 Java 程序的类库,可以通过编写简单的配置和代码，让基于这些框架构建的应用可以向 Zipkin 报告数据
+        //Brave 的初始化就是要构建 Brave 类的实例，该库提供了 Builder 类用来完成这件事情
         return new Brave.Builder((zipkinProperties.getService())).reporter((reporter())).build();
     }
 
+    @Bean
     public SpanNameProvider spanNameProvider() {
         return new SpanNameProvider() {
             @Override
