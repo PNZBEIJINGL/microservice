@@ -15,6 +15,7 @@
         <module>ms-resource</module>
         <module>ms-customer</module>
         <module>zipkin-common</module>
+        <module>ms-customer-ui</module>
     </modules>
 
 

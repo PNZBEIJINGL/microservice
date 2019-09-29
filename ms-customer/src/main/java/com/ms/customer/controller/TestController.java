@@ -28,7 +28,7 @@ public class TestController {
      * @return
      */
     @GetMapping("/date ")
-    public String say2(@PathVariable("name") String name) {
+    public String date(@PathVariable("name") String name) {
         return "date: " + new Date() + " request=" + name;
     }
 
@@ -39,7 +39,7 @@ public class TestController {
      * @return
      */
     @GetMapping("/info")
-    public String say3(@RequestHeader("name") String name) {
+    public String info(@RequestHeader("name") String name) {
         return "info: " + "test me" + " request=" + name;
     }
 

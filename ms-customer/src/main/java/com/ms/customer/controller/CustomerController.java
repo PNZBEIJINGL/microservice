@@ -28,6 +28,8 @@ public class CustomerController {
     }
 
 
+
+
     @RequestMapping("/")
     public String index() {
         return "welcome customer";
