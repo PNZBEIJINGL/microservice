@@ -6,17 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ms-customer" />
+        <module name="ms-customer-ui" />
         <module name="ms-framework" />
+        <module name="ms-product" />
+        <module name="ms-resource" />
         <module name="ms-simple" />
-        <module name="mscustomer" />
-        <module name="mscustomerui" />
-        <module name="msproduct" />
-        <module name="msresource" />
-        <module name="zipkincommon" />
+        <module name="zipkin-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ms-product" target="1.8" />
       <module name="msframwork" target="1.5" />
     </bytecodeTargetLevel>
   </component>
