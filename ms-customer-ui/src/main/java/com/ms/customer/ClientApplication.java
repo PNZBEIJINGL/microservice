@@ -11,10 +11,12 @@ public class ClientApplication implements CommandLineRunner {
     @Autowired
     private TestingClient client;
 
+    @Override
     public void run(String... strings) throws Exception {
-        System.out.println(client.getVersion("param:version"));
-        System.out.println(client.getDate("param:date"));
-        System.out.println(client.info("param:info"));
+        //测试
+        System.out.println("result:" + client.getVersion("param:version"));
+        //System.out.println("result:" + client.getDate("param:date"));
+        System.out.println("result:" + client.info("param:info"));
     }
 
     public static void main(String[] args) {

@@ -18,7 +18,7 @@ public class TestController {
      */
     @GetMapping("/version")
     public String getVersion(@RequestParam("name") String name) {
-        return "version: " + "1.0.0" + " request=" + name;
+        return "version: " + "1.0.0" + " | " + name;
     }
 
     /**
@@ -27,9 +27,9 @@ public class TestController {
      * @param name
      * @return
      */
-    @GetMapping("/date ")
+    @GetMapping("/date/{name}")
     public String date(@PathVariable("name") String name) {
-        return "date: " + new Date() + " request=" + name;
+        return "date: " + new Date() + " | " + name;
     }
 
     /**
@@ -38,9 +38,9 @@ public class TestController {
      * @param name
      * @return
      */
-    @GetMapping("/info")
-    public String info(@RequestHeader("name") String name) {
-        return "info: " + "test me" + " request=" + name;
+    @GetMapping("/company")
+    public String company(@RequestHeader("name") String name) {
+        return "company: " + "strtimes " + " | " + name;
     }
 
 }
