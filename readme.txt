@@ -1,4 +1,18 @@
 
+ms-customer-ui
+客户端调用测试
+1) Spring RestTemplate
+Spring用于同步client端的核心类，简化了与http服务的通信，并满足RestFul原则程序代码可以给它提供URL，并提取结果。
+默认情况下，RestTemplate默认依赖jdk的HTTP连接工具。当然你也可以 通过setRequestFactory属性切换到不同的HTTP源，比如Apache HttpComponents、Netty和OkHttp。
+RestTemplate能大幅简化了提交表单数据的难度，并且附带了自动转换JSON数据的功能
+2) Okhttp
+使用方便
+支持HTTP/2协议发送到同一主机上的请求能共享同一个Socket链接
+性能得到很大的提高
+连接池降低请求延迟
+GZIP压缩下载大小
+响应缓存避免重复请求
+
 
 ms-simple
 Spring Boot Admin 是SpringBoot自带的开源监控功能, 它提供了简单的管理界面,用于管理系中运行的springboot应用程序

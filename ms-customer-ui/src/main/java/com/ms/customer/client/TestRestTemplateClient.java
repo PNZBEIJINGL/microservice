@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import java.net.URI;
 
 @Component
-public class TestingClient {
+public class TestRestTemplateClient {
 
     @Autowired
     private RestTemplate restTemplate;

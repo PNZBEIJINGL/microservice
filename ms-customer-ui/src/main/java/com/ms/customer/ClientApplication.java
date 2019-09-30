@@ -1,6 +1,6 @@
 package com.ms.customer;
 
-import com.ms.customer.client.TestingClient;
+import com.ms.customer.client.TestRestTemplateClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ClientApplication implements CommandLineRunner {
     @Autowired
-    private TestingClient client;
+    private TestRestTemplateClient client;
 
     @Override
     public void run(String... strings) throws Exception {
