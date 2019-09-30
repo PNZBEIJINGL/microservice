@@ -29,7 +29,7 @@ public class TestOkHttpClient {
     public String getDate(String name) throws IOException {
         Request request = new Request.Builder()
                 .get()
-                .url(String.format("%s/date%s", rootUri, name))
+                .url(String.format("%s/date/%s", rootUri, name))
                 .build();
         Response reponse = okHttpClient.newCall(request).execute();
         return reponse.body().string();
@@ -38,7 +38,7 @@ public class TestOkHttpClient {
     public String info(String name) throws IOException {
         Request request = new Request.Builder()
                 .get()
-                .url(String.format("%s/conpany", rootUri))
+                .url(String.format("%s/company", rootUri))
                 .addHeader("name", name)
                 .build();
         Response reponse = okHttpClient.newCall(request).execute();

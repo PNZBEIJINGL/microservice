@@ -49,12 +49,14 @@
             <artifactId>spring-webmvc</artifactId>
             <version>4.3.22.RELEASE</version>
         </dependency>
+
+
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
+            <version>3.6.0</version>
         </dependency>
+
     </dependencies>
 
     <build>
