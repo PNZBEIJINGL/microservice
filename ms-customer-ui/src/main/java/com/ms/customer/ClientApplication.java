@@ -28,6 +28,7 @@ public class ClientApplication implements CommandLineRunner {
         System.out.println("result:" + okHttpClient.getVersion("okHttpClient Testing"));
         System.out.println("result:" + okHttpClient.getDate("okHttpClient Testing"));
         System.out.println("result:" + okHttpClient.info("okHttpClient Testing"));
+
     }
 
     public static void main(String[] args) {
