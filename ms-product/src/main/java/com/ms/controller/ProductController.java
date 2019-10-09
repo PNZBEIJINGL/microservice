@@ -1,4 +1,4 @@
-package com.ms.product.controller;
+package com.ms.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

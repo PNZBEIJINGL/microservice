@@ -10,12 +10,14 @@
         <module name="ms-customer-ui" />
         <module name="ms-framework" />
         <module name="ms-product" />
+        <module name="ms-product-ui" />
         <module name="ms-resource" />
         <module name="ms-simple" />
         <module name="zipkin-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ms-product-ui" target="1.6" />
       <module name="msframwork" target="1.5" />
     </bytecodeTargetLevel>
   </component>
