@@ -9,13 +9,16 @@
     <packaging>pom</packaging>
     <version>1.0.0</version>
     <modules>
+        <module>zipkin-common</module>
         <module>ms-framework</module>
         <module>ms-simple</module>
+
         <module>ms-product</module>
         <module>ms-resource</module>
         <module>ms-customer</module>
-        <module>zipkin-common</module>
         <module>ms-customer-ui</module>
+        <module>ms-resource-ui</module>
+        <module>ms-product-ui</module>
         <module>ms-product-ui</module>
     </modules>
 
